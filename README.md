@@ -1,20 +1,26 @@
 # MHGU 快捷轮盘
 
+**简体中文** | [English](./README.en.md)
+
 为《怪物猎人Generations Ultimate》增加快捷轮盘。猎人可以登记道具、切换四组预设；猎猫轮盘会按装备顺序显示支援行动，支援槽不足时显示红叉。
 
-## 下载 v0.50
+[![猎人道具轮盘（左）和猎猫支援行动轮盘（右）](./docs/images/hunter-prowler-wheels.jpg)](https://www.bilibili.com/video/BV1vEyWzWEb6/)
 
-打开仓库右侧的 **Releases**，进入 **v0.50**，展开页面底部的 **Assets**。玩哪个平台，就下载对应的文件。
+左边是猎人的道具轮盘，右边是猎猫的支援行动轮盘。 [在哔哩哔哩观看快捷轮盘视频介绍](https://www.bilibili.com/video/BV1vEyWzWEb6/)
+
+## 下载 v0.51
+
+打开仓库右侧的 **Releases**，进入 **v0.51**，展开页面底部的 **Assets**。玩哪个平台，就下载对应的文件。
 
 | 平台 | 下载文件 | 怎样安装 |
 | --- | --- | --- |
-| PC 移植版 | `MHGU-Quick-Wheel-v0.50-PC.zip` | 解压后将 `GU-CraftWheel` 放入游戏的 `mods`，启用后重启。键鼠指针归中模块的安装见包内说明。 |
-| Eden 模拟器 | `MHGU-Quick-Wheel-v0.50-Eden.zip` | 将 `GU-CraftWheel` 放入该游戏的 MOD 目录并启用。包内含前置。 |
-| Switch | `MHGU-Quick-Wheel-v0.50-Switch.zip` | 将包内的 `atmosphere` 合并到 SD 卡根目录。包内含前置。 |
-| 安卓 MHGU CLOUD 整合版 | `MHGU-CLOUD-v0.50-Android.apk` | 安装 APK，启动 CLOUD。轮盘和字体会部署到当前游戏目录。 |
-| 安卓独立 MOD | `MHGU-Quick-Wheel-v0.50-Android.zip` | 将 `GU-CraftWheel` 放入兼容移植版的 `mods` 目录，启用后重启。需要完整触屏操作时，推荐上面的 CLOUD 整合版。 |
+| PC 移植版 | `MHGU-Quick-Wheel-v0.51-PC.zip` | 解压后将 `GU-CraftWheel` 放入游戏的 `mods`，启用后重启。键鼠指针归中模块的安装见包内说明。 |
+| Eden 模拟器 | `MHGU-Quick-Wheel-v0.51-Eden.zip` | 将 `GU-CraftWheel` 放入该游戏的 MOD 目录并启用。包内含前置。 |
+| Switch | `MHGU-Quick-Wheel-v0.51-Switch.zip` | 将包内的 `atmosphere` 合并到 SD 卡根目录。包内含前置。 |
+| 安卓 MHGU CLOUD 整合版 | `MHGU-CLOUD-v0.51-Android.apk` | 安装 APK，启动 CLOUD。轮盘和字体会部署到当前游戏目录。 |
+| 安卓独立 MOD | `MHGU-Quick-Wheel-v0.51-Android.zip` | 将 `GU-CraftWheel` 放入兼容移植版的 `mods` 目录，启用后重启。需要完整触屏操作时，推荐上面的 CLOUD 整合版。 |
 
-需要一次取得所有平台、前置和源码，可下载 `MHGU-Quick-Wheel-v0.50-All.zip`。轮盘源码和 CLOUD 宿主源码也可单独下载。附件的 SHA-256 见同页的 `SHA256SUMS.txt`。
+需要一次取得所有平台、前置和源码，可下载 `MHGU-Quick-Wheel-v0.51-All.zip`。轮盘源码和 CLOUD 宿主源码也可单独下载。附件的 SHA-256 见同页的 `SHA256SUMS.txt`。
 
 ## 游戏里怎么用
 
@@ -25,7 +31,7 @@
 
 ## 源码和构建
 
-四个平台的源码分别位于 `port/`、`eden/`、`switch/`、`android/`，共用贴图和字体位于 `assets/`。PC 指针归中模块位于 `cursor/`。构建工具、四个平台的命令和测试入口见[构建说明](构建说明.txt)。重建安卓 APK 使用 Release 中的 `MHGU-CLOUD-v0.50-Host-Source.zip` 及其中的构建说明。
+四个平台的源码分别位于 `port/`、`eden/`、`switch/`、`android/`，共用贴图和字体位于 `assets/`。PC 指针归中模块位于 `cursor/`。构建工具、四个平台的命令和测试入口见[构建说明](构建说明.txt)。重建安卓 APK 使用 Release 中的 `MHGU-CLOUD-v0.51-Host-Source.zip` 及其中的构建说明。
 
 第三方组件和字体的许可与来源见 [licenses](licenses/) 及各上游源码目录。游戏提取素材包括道具袋与部分图标。
 

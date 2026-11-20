@@ -1,4 +1,4 @@
-﻿快捷轮盘 v0.50
+﻿快捷轮盘 v0.51
 
 Python 3、devkitARM GCC 16.1.0。安装 lz4 后从源码包根目录运行。编译器不在 PATH 时加 --cc 指定路径。
   python build_mod.py android --output out/android/gu_craft_wheel.nro
